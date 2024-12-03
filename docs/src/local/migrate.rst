@@ -33,7 +33,7 @@ Migrating a Container
 Assuming the container meets the above criteria, you can create a repository
 from it by running::
 
-    titan mgirate -s somecontainer myrepo
+    titan migrate -s somecontainer myrepo
 
 This will get the configuration of the container and use it verbatim for the
 new repository. It will determine where each volume resides on the host
